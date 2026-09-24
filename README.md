@@ -1,5 +1,13 @@
 # 😶‍🌫️ Sistem Manajemen Jasa Cuci Sepatu
 
+ ## 👤 Identitas
+ | Data | Keterangan |
+|---|---|
+| 👩 Nama | **Dliya Syahla Hariyanto** |
+| 🆔 NIM | **2509116095** |
+| 📚 Program Studi | **Sistem Informasi** |
+| 📖 Mata Kuliah | **Praktikum PBO** |
+
 ## 📌 Deskripsi Singkat
 **Sistem Manajemen Jasa Cuci Sepatu** merupakan program berbasis Java yang digunakan untuk membantu mengelola data pelanggan, sepatu, dan transaksi jasa cuci sepatu.
 
@@ -25,15 +33,25 @@ Program ini dibuat untuk:
 Program memiliki beberapa fitur utama, yaitu:
 
 - **Tambah Data** untuk menambahkan transaksi baru.
+  
 - **Lihat Data** untuk menampilkan seluruh transaksi.
+  
 - **Ubah Status** untuk mengubah status proses pencucian.
+  
 - **Hapus Data** untuk menghapus transaksi yang masih dapat dihapus.
+  
 - **Cari Data** untuk mencari transaksi berdasarkan ID.
+  
 - **Cetak Struk** untuk mencetak informasi transaksi yang sudah berstatus Diambil.
+  
 - **ID Otomatis** untuk transaksi, pelanggan, dan sepatu.
+  
 - **Tanggal Otomatis** berdasarkan tanggal transaksi dibuat.
+  
 - **Input Validation** untuk mencegah input yang tidak sesuai.
+  
 - **Dummy Data** agar data dapat langsung ditampilkan saat program dijalankan.
+  
 - **Loading Animation** pada beberapa proses dalam program.
 
 ## ✅ Input Validation
@@ -43,15 +61,25 @@ Program memiliki validasi input untuk mencegah kesalahan saat pengguna memasukka
 Beberapa validasi yang diterapkan:
 
 -Input tidak boleh kosong.
+
 -Nama minimal 3 karakter.
+
 -Nama hanya boleh menggunakan huruf dan spasi.
+
 -Nomor telepon hanya boleh menggunakan angka.
+
 -Nomor telepon harus terdiri dari 10-13 digit.
+
 -Input tertentu memiliki batas minimal dan maksimal karakter.
+
 -Pilihan menu harus sesuai dengan pilihan yang tersedia.
+
 -Pilihan jenis sepatu harus sesuai dengan menu.
+
 -Pilihan layanan harus sesuai dengan menu.
+
 -Pilihan status transaksi harus sesuai dengan menu.
+
 -Input angka akan divalidasi agar tidak menyebabkan program error.
 
 ## 📸 Dokumentasi Program
