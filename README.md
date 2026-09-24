@@ -71,14 +71,43 @@ Data yang ditampilkan meliputi ID transaksi, tanggal, informasi pelanggan, infor
 
 <img width="417" height="632" alt="image" src="https://github.com/user-attachments/assets/67671d56-9a6d-47b9-b652-1325c49452c5" />
 
+### 3. Ubah Status Transaksi
 
+Menu Ubah Status Transaksi digunakan untuk mengubah status proses pencucian sepatu. Pengguna memasukkan ID transaksi yang ingin diubah, kemudian memilih status baru.
 
+Status yang tersedia adalah **Menunggu, Diproses, Selesai, dan Diambil**. Jika transaksi sudah berstatus **Diambil**, status tersebut tidak dapat diubah lagi.
 
+<img width="467" height="587" alt="image" src="https://github.com/user-attachments/assets/e1fcb7c9-0a82-43c6-b860-a345dcb1c054" />
 
+### 4. Hapus Data
 
+Menu Hapus Data digunakan untuk menghapus transaksi berdasarkan ID transaksi. Sebelum transaksi dihapus, sistem menampilkan data yang dipilih dan meminta konfirmasi pengguna.
 
+Transaksi yang sudah berstatus **Diambil** tidak dapat dihapus karena transaksi tersebut dianggap sudah selesai dan telah diambil oleh pelanggan.
 
+<img width="305" height="487" alt="image" src="https://github.com/user-attachments/assets/0b993859-eb56-4707-b3a1-f232763ab9ca" />
 
+### 5. Cari Data
+
+Menu Cari Data digunakan untuk mencari transaksi tertentu berdasarkan ID transaksi. Jika ID ditemukan, sistem akan menampilkan informasi lengkap dari transaksi tersebut.
+
+Jika ID yang dimasukkan tidak ditemukan, sistem akan memberikan informasi bahwa data tidak tersedia.
+
+<img width="342" height="385" alt="image" src="https://github.com/user-attachments/assets/f0fd17af-9381-4016-bebc-c95388b92a45" />
+
+### 6. Cetak Struk
+
+Menu Cetak Struk digunakan untuk menampilkan informasi transaksi dalam bentuk struk sederhana. Informasi yang ditampilkan meliputi ID transaksi, tanggal, nama pelanggan, nomor telepon, sepatu, warna, layanan, harga, dan status transaksi.
+
+Fitur cetak struk hanya dapat digunakan apabila status transaksi sudah **Diambil**. Jika transaksi belum berstatus Diambil, sistem akan menolak proses cetak struk dan menampilkan status transaksi saat ini.
+
+<img width="437" height="428" alt="image" src="https://github.com/user-attachments/assets/1b717ccf-b545-45e6-beab-abcb98eb0ec7" />
+
+### 7. Keluar
+
+Menu Keluar digunakan untuk mengakhiri penggunaan program. Ketika pengguna memilih menu ini, sistem akan menjalankan loading animation sederhana kemudian menampilkan pesan bahwa program telah ditutup.
+
+<img width="433" height="407" alt="image" src="https://github.com/user-attachments/assets/94958d14-6862-4548-a1b8-7e5037f95b25" />
 
 ## 🔐 Penerapan Encapsulation
 Encapsulation diterapkan pada class yang terdapat di package Model, seperti Pelanggan, Sepatu, dan Transaksi.
