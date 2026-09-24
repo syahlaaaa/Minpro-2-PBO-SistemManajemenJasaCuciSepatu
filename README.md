@@ -209,13 +209,18 @@ Dengan demikian, method yang sama dapat menghasilkan output yang berbeda sesuai 
 ## Penerapan MVC
 
 Program menggunakan struktur **MVC (Model, View, Controller)** untuk memisahkan bagian data, tampilan, dan proses pengolahan data agar program lebih terorganisir.
-# Model digunakan untuk menyimpan class dan data yang digunakan dalam program. Package ini berisi Pelanggan, Sepatu, SepatuSneakers, SepatuBoot, dan Transaksi.
 
-# View digunakan untuk mengatur tampilan menu dan interaksi dengan pengguna. Pada program ini, bagian View terdapat pada class Menu.java.
+# Model
+digunakan untuk menyimpan class dan data yang digunakan dalam program. Package ini berisi Pelanggan, Sepatu, SepatuSneakers, SepatuBoot, dan Transaksi.
 
-# Controller digunakan untuk mengatur proses pengolahan data transaksi, seperti menambahkan, mencari, dan menghapus transaksi. Pada program ini, bagian Controller terdapat pada TransaksiController.java.
+# View 
+digunakan untuk mengatur tampilan menu dan interaksi dengan pengguna. Pada program ini, bagian View terdapat pada class Menu.java.
+
+# Controller
+digunakan untuk mengatur proses pengolahan data transaksi, seperti menambahkan, mencari, dan menghapus transaksi. Pada program ini, bagian Controller terdapat pada TransaksiController.java.
 
 Dengan menggunakan struktur MVC, setiap bagian program memiliki tugas masing-masing sehingga kode menjadi lebih rapi dan mudah dikelola.
+
 ## 📸 Struktur Package
 # Model
 
